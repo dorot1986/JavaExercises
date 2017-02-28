@@ -7,6 +7,11 @@ import java.util.List;
 /**
  * Created by Dorota Marszałek on 2017-02-28.
  */
+
+/*Zdefiniuj klasę Person, oraz klasę dziedziczącą Employee, zaimplementuj interfejs
+        Comparable I skorzystaj z metody Sort w Collection.*/
+
+
 public class Main {
     public static void main(String[] args) {
         List<Employee> employees = new ArrayList<Employee>();
