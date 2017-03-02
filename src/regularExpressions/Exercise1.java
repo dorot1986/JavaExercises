@@ -42,7 +42,7 @@ public class Exercise1 {
         //Czy string rozpoczyna się od "J" i kończy na "U"?
         System.out.println(Pattern.matches("J.*U", "JU"));
         //Czy string rozpoczyna się od wielkiej litery?
-        System.out.println(Pattern.matches("[A-Z]*.+", "BBaAA"));
+        System.out.println(Pattern.matches("[A-Z]+.*", "BBaAA"));
         //Czy string zawiera spację? (biały znak)?
         System.out.println(Pattern.matches(".*\\s+.*", "Ba AA"));
         //Czy string jest numerem telefonu zaczynającym się od 7 lub 8 lub 9?
