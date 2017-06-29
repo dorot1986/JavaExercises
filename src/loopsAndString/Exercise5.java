@@ -17,7 +17,7 @@ public class Exercise5 {
         System.out.println("Podaj imię:");
         String name = sc.next();
         sc.close();
-        if (Pattern.matches("[a-zA-ZąćęłńóśźżĄĘŁŃÓŚŹŻ]+", name)==false ){
+        if (!Pattern.matches("[a-zA-ZąćęłńóśźżĄĘŁŃÓŚŹŻ]+", name)){
                 //Pattern.matches("[a-zA-Z]", name)==false ){
             System.out.println("Niepoprawne dane!");
         }
